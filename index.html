@@ -10,17 +10,15 @@
             <button id="valider" onclick="maj();" name="valider">Valider</button>
         </form>
 <script>
-  function maj(){
-    var age = document.getElementById("age").value;
-    if (age>=18){
-      alert("vous êtes majeur");
+  function maj(){ //déclare la fction.
+    var age = document.getElementById("age").value; // on appel l'input avec l'id
+    if (age>=18){                                   // si tu as + ou = 18ans
+      alert("vous êtes majeur");                    // affiche vs etes majeur
     }
-   else{
-     alert("vous êtes mineur");
+   else{                                            // sinon
+     alert("vous êtes mineur");                     // affiche mineur
    }
   }
 </script>
-
-
     </body>
 </html>
